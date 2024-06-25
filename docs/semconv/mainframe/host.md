@@ -13,12 +13,12 @@ The attribute [``deployment.environment``](https://opentelemetry.io/docs/specs/s
 |----|----|----|----|
 | LPAR | IBM Z HMC API | object-id, e.g., d6641179-b8e0-3980-9d22-32cdd967c774 | name, e.g., VM137 |
 | LPAR or VM | 3rd party management software | uuid | name or FQDN |
-| z/OS LPAR or VM | ``d xcf`` | Combination of sysplex name (8 chars) and SMFID (4 chars), e.g., ``SYSPLEX1-SYSID`` | SMFID (4 chars), e.g., ``SYS1`` | 
+| z/OS LPAR or z/VM guest | ``d xcf`` | Combination of sysplex name (8 chars) and SMFID (4 chars), e.g., ``SYSPLEX1-SYS1`` | SMFID (4 chars), e.g., ``SYS1`` | 
 | Linux LPAR | ``hostname --fqdn``| | FQDN |
 | TPF LPAR or VM | |  | Combination of system name, complex name,  and environment, e.g., ``TPFA-RES-PROD``| 
 | z/VM LPAR | | | ``SYSTEMID`` or FQDN  |
-| VMs on z/VM | ``query users`` <br>``hostname --fqdn``| userid | FQDN |
+| VMs on z/VM | ``query users`` <br>``hostname --fqdn``| userid | FQDN or SMFID (for z/OS) |
 | VMs on KVM | ``virsh list`` <br>``hostname --fqdn`` | domain name | FQDN | 
 
 
-
+Note: sysplex name is local for a monoplex, e.g. ``LOCAL-SYS1`` (to be verified)
