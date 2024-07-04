@@ -1,6 +1,6 @@
 # Mainframe Special Interest Group
 This is the home of the Specifial Interest Group (SIG) "OpenTelemetry on Mainframe". 
-Our aim is to enable OpenTelemetry for the Mainframe and to contribute to the integration of the Mainframe into the the OpenTelemetry ecosystem.
+Our aim is to enable OpenTelemetry for the Mainframe and to contribute to the integration of the Mainframe into the OpenTelemetry ecosystem.
 
 ## Objectives
 The Mainframe SIG will contribute to the OpenTelemetry in the following areas:
