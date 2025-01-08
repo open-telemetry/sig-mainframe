@@ -22,7 +22,7 @@ Regular SIG Meeting: Tuesdays at 10 a.m. PDT
 
 ## Project Leadership
 - [Ruediger Schulze](https://github.com/rrschulze), IBM 
-- [Aaron Young](https://github.com/youngaaronm), Broadcom
+- [Aaron Young](https://github.com/youngaaronm), Broadcom Inc.
 
 ## Contact
 [#otel-mainframes](https://cloud-native.slack.com/archives/C05PXDFTCPJ)
