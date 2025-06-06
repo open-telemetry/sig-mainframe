@@ -1,3 +1,6 @@
+> [!IMPORTANT] 
+> We are archiving this repository, as the Mainframe SIG's work is contributed to the specification, semantic conventions, Collector, and instrumentation repositories, and there's no need for a standalone repository for this SIG. The SIG is still very active! Please join us in our [weekly meetings]([url](https://github.com/open-telemetry/community?tab=readme-ov-file#specification-sigs)) or on [Slack]([url](https://cloud-native.slack.com/archives/C05PXDFTCPJ)) if you are interested in using or contributing to OpenTelemetry's mainframe efforts.
+
 # Mainframe Special Interest Group
 This is the home of the Specifial Interest Group (SIG) "OpenTelemetry on Mainframe". 
 Our aim is to enable OpenTelemetry for the Mainframe and to contribute to the integration of the Mainframe into the OpenTelemetry ecosystem.
