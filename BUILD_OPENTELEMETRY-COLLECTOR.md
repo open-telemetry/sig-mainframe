@@ -27,14 +27,14 @@ receivers:
       http:
 
 exporters:
-  logging:
+  debug:
     verbosity: detailed
 
 service:
   pipelines:
     traces:
       receivers: [otlp]
-      exporters: [logging]
+      exporters: [debug]
   telemetry:
     metrics:
       level: none
