@@ -13,7 +13,7 @@ The attribute [``deployment.environment``](https://opentelemetry.io/docs/specs/s
 |----|----|----|----|
 | LPAR | IBM Z HMC API | object-id, e.g., d6641179-b8e0-3980-9d22-32cdd967c774 | name, e.g., VM137 |
 | LPAR or VM | 3rd party management software | uuid | name or FQDN |
-| z/OS LPAR or z/VM guest | ``d xcf`` | Combination of sysplex name (8 chars) and SMFID (4 chars), e.g., ``SYSPLEX1-SYS1`` | SMFID (4 chars), e.g., ``SYS1`` | 
+| z/OS LPAR or z/VM guest | ``d xcf`` | Combination of sysplex name (8 chars) and SMFID (4 chars), e.g., ``SYSPLEX1-SYS1`` | hostname or FQDH, SMFID (4 chars), e.g., ``SYS1``, in zos.smf.id | 
 | Linux LPAR | ``hostname --fqdn``| | FQDN |
 | TPF LPAR or VM | |  | Combination of system name, complex name,  and environment, e.g., ``TPFA-RES-PROD``| 
 | z/VM LPAR | | | ``SYSTEMID`` or FQDN  |
